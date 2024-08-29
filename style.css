@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+    body {
+        scrollbar-width: none; 
+      }
+
+nav{
+    background-color: rgba(5, 13, 33, 0.76);
+    box-shadow:2px 0 10px;
+    position:absolute;
+    color: white;
+    font-family: "Caveat", cursive;
+}
+nav .navbar-toggler{
+    background-color: #c28ade7b;
+}
+nav .navbar-brand{
+    color: white;
+    font-size:x-large;
+    font-weight: 900;
+    margin: auto;
+}
+nav .navbar-brand:hover{
+    transition: .3s;
+    color: #9537c5;
+    text-shadow: 1.1px 1.1px ;
+}
+nav .nav-item{
+    
+}
+nav .nav-link {
+    color: white;
+    font-size:large;
+    font-weight: 800;
+} 
+nav .nav-link:hover{
+    transition: .2s;
+    color: #9537c5;
+}
+
+#nav-button{
+    background-color: #c28ade;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 3%;
+}
+.booknow-btn{
+    background-color: #c28ade;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-left: 3%;
+}
+.booknow-btn:hover{
+    transition: .2s;
+    background-color: #9537c5;
+    color: rgba(255, 255, 255, 0.696)  ;
+}
+#nav-button:hover{
+    transition: .2s;
+    background-color: #9537c5;
+    color: rgba(255, 255, 255, 0.696)  ;
+}
+
+.herosection{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/ayodhya.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Caveat", cursive;
+    
+}
+.herosection .mask{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.34),rgb(0, 0, 0));
+    
+}
+
+                     /* ABOUTUS */
+
+.aboutus{
+    font-family: "Caveat", cursive;
+    display: flex;
+    width: 100%;
+    height: max-content;
+    padding: 10px;
+    margin-top: 1%;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: url(assets/baranti.webp) ;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+.aboutus img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5%;
+    border-radius:10px;
+    width: 50%;
+    height: auto;
+    background-color: #9537c5;
+}    
+
+.aboutus .about-body{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.aboutus .about-body p{
+    line-height: 30px;
+    font-size: large;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.aboutus .mask{
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.443),rgb(0, 0, 0));
+}
+
+
+
+                   /* rooms */
+
+
+.rooms {
+
+        
+}
+
+.room-mask{
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 25px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.34),rgb(0, 0, 0)),url(assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.rooms-card{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    border: none;
+
+}
+
+.rooms-card .col .card{
+    width: 80%;
+    height: 80%;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 3px 5px rgba(51, 50, 50, 0.304);
+    background-color: rgba(186, 195, 199, 0.203);
+}
+
+
+                      /* GALLARY */
+
+.gallary{
+
+}
+
+.gallary .mask{
+    font-family: "Caveat", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 30px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.34),rgb(0, 0, 0)),url(assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.gallary .mask h1{
+    color:#d5c3de;
+    font-weight:bolder;
+    padding: 10px;
+    background-color: rgba(240, 255, 255, 0.137);
+}
+
+                         /* FORM */
+
+.form{
+    font-family: "Caveat", cursive;
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.34),rgb(0, 0, 0)),url(assets/flower.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:left;
+
+}
+
+.form p{
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.form .card{
+    background-color: rgba(0, 0, 0, 0.311);
+    color: white;
+    font-size: larger;
+}
+
+.form .card input{
+    background-color: rgba(0, 0, 0, 0.224);
+    color: white;
+}
+
+                  /* MAP */
+.map{
+    font-family: "Caveat", cursive;
+
+    width: 100%;
+    height: 70vh;
+    margin: 20px 0;
+    background-color: rgba(0, 0, 0, 0.934);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+    
+}
+
+.map .body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.map iframe{
+    width: 50%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+               /* FOOTER */
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer .row{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .row a{
+    color: rgb(56, 52, 52);
+    text-decoration: none;
+    
+}
+
+.footer .row a:hover{
+    transition: .3s;
+    color: white;
+}
